@@ -1,0 +1,8 @@
+configurar firebase para que la consola sea en https://console.firebase.google.com/project/linkedin-clone-yt-fc1ed/overview
+
+en project settings del proyecto -> SDK setup and configuration -> Config
+copias y lo pegas en firebase.js
+
+npm add firebase en consola para instalar firebase en el proyecto, y asi poder importar la dependencia
+
+la parte db y auth es para exportar la base de datos y servicio de login
