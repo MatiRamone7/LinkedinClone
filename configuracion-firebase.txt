@@ -6,3 +6,9 @@ copias y lo pegas en firebase.js
 npm add firebase en consola para instalar firebase en el proyecto, y asi poder importar la dependencia
 
 la parte db y auth es para exportar la base de datos y servicio de login
+
+npm add react-flip-move para importar libreria
+En la clase post, forwardRef, la funcion flecha y ref fueron añadidos para esta libreria
+En la clase Feed, FlipMove tambien
+
+Desde la pc quadion, no parece permitir scripts firebase

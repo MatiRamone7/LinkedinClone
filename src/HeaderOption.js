@@ -2,9 +2,9 @@ import React from 'react'
 import './HeaderOption.css'
 import { Avatar } from "@material-ui/core";
 
-function HeaderOption({ avatar, Icon, title }) {
+function HeaderOption({ avatar, Icon, title, onClick }) {
     return (
-        <div className='headerOption'>
+        <div onClick={onClick} className='headerOption'>
             {/* El && es para un condicional si se trae lo que dice antes */}
             {Icon && <Icon className='headerOption__icon' />}
             {avatar && (
